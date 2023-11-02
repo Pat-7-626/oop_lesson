@@ -3,6 +3,11 @@ class AccountDB:
         self.account_database = []
 
     def insert(self, account):
+        """
+
+        :param account:
+        :return:
+        """
         index = self.__search_private(account.account_number)
         if index == -1:
             self.account_database.append(account)
