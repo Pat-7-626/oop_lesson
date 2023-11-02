@@ -38,3 +38,4 @@ for city in cities:
 for city in cities_ext:
     if city['EU'] == 'no' and float(city['temperature']) < 5.0:
         print(city)
+
